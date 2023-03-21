@@ -43,7 +43,7 @@ public class Person {
 	 * numCuentaBancaria (tipo String): en el que guardamos el número de la cuenta
 	 * bancaria de la persona
 	 */
-	private String numCuentaBancaria; // Bank account numbers
+	private String numCuentaBancaria;
 	/**
 	 * fechaIncorporacion (tipo String): en el que guardamos la fecha en la que se
 	 * incorporó/a la persona en el trabajo
@@ -57,7 +57,7 @@ public class Person {
 	/**
 	 * imageTxt (tipo String): en el que guardamos la ruta de la foto de la persona
 	 */
-	private String imageTxt; // Health plan beneficiary number
+	private String imageTxt;
 	/**
 	 * NumPerfiles (tipo int): en el que guardamos el número de perfiles totales. Es
 	 * estático para todas las personas
