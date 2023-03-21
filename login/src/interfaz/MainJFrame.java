@@ -50,8 +50,7 @@ public class MainJFrame extends javax.swing.JFrame {
 	 * lista (tipo List): lista en la que guardamos los objetos person con las
 	 * personas
 	 */
-	public static List<Person> lista = new ArrayList<>(); // que sea publico y estatico para poder verlo desde otros
-															// archivos
+	public static List<Person> lista = new ArrayList<>();
 
 	/**
 	 * Consctructor: Crea un nuevo formulario MainJFrame

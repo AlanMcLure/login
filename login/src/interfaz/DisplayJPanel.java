@@ -60,7 +60,6 @@ public class DisplayJPanel extends javax.swing.JPanel {
 		textFieldSueldo.setText(String.valueOf(lista.get(numPerfil).getSueldo()));
 
 		String imageTxt = lista.get(numPerfil).getImagetxt();
-		// imagePatTxt.setText(imageTxt);
 
 		try {
 			BufferedImage img = ImageIO.read(new File(imageTxt));
@@ -137,12 +136,6 @@ public class DisplayJPanel extends javax.swing.JPanel {
 		textFieldCuentaBancaria.setEditable(false);
 		textFieldSeguridadSocial.setEditable(false);
 		textFieldEmail.setEditable(false);
-//		textFieldEmail.addActionListener(new java.awt.event.ActionListener() {
-//			public void actionPerformed(java.awt.event.ActionEvent evt) {
-//				emailTextFieldActionPerformed(evt);
-//			}
-//		});
-
 		textFieldTelefono.setEditable(false);
 		textFieldPais.setEditable(false);
 		textFieldFechaNacimiento.setEditable(false);

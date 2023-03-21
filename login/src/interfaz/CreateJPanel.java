@@ -134,18 +134,6 @@ public class CreateJPanel extends javax.swing.JPanel {
 		lblSueldo.setText("Sueldo: ");
 		comboBoxDepartamento.setModel(new DefaultComboBoxModel(Departamento.values()));
 
-//		textPathFoto.addActionListener(new java.awt.event.ActionListener() {
-//			public void actionPerformed(java.awt.event.ActionEvent evt) {
-//				picTextPathActionPerformed(evt);
-//			}
-//		});
-
-//		textFieldEmail.addActionListener(new java.awt.event.ActionListener() {
-//			public void actionPerformed(java.awt.event.ActionEvent evt) {
-//				emailTextFieldActionPerformed(evt);
-//			}
-//		});
-
 		javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
 		layout.setHorizontalGroup(layout.createParallelGroup(Alignment.TRAILING).addGroup(layout.createSequentialGroup()
 				.addGroup(layout.createParallelGroup(Alignment.LEADING).addGroup(layout.createSequentialGroup()
